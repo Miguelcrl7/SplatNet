@@ -182,3 +182,13 @@ button2 {
     width: 100%;
     height: 100%;
 }
+
+.end {
+    z-index: 1;
+    position: absolute;
+    right: 0%;
+    height: 15%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
