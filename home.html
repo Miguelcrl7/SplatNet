@@ -1,0 +1,348 @@
+﻿<!DOC   TYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="icon" type="image/x-icon" href="web/img/icon_web_page.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #e9e9e9; text-align: left; color: black;">
+    <!-- esta es la barra de arriba -->
+    <div class="home-bar">
+        <h1>SplatNet</h1>
+
+        <div class="menu-button" onclick="location.href='menu.html'">
+            <img src="web/img/menu.png" alt="Ir al menu"   style="height: 100%; width: 85%;" >
+
+        </div>
+    </div>
+
+    <!-- texto de inicio -->
+    <div class="Alert">
+        <h2> :v </h2>
+
+    </div>
+
+
+
+    <!-- codigo publicacion (con cambio de imagen) -->
+    <div class="pub" style="top: 200px; left: 100px;">
+        <div class="pub-text-content">
+            <div class="pub-title">
+                <!-- titulo -->
+                <h3>Dos</h3>
+
+            </div>
+            <div class="pub-text">
+                <!-- texto -->
+                <p1>Dos Imagenes en una publicacion 🙀</p1>
+
+            </div>
+        </div>
+
+        <!-- imagen (cambio de imagen con botones) -->
+        <div class="pub-img">
+            <img id="Pub1" src="Testing/Photos/1.jpg" alt="Jean Saro" object-fit="contain" width="" height="100%" transform="0%,-50%" object-position="0%,50%">
+            <div class="change-img">
+                <button1 onclick="document.getElementById('Pub1').src='Testing/Photos/1.jpg'"> < </button1>
+                <button2 onclick="document.getElementById('Pub1').src='Testing/Photos/2.jpg'"> > </button2>
+            </div>
+            <img src="Testing/Photos/1.jpg" style="height: 120%; width: 120%; z-index: -1; filter: blur(5px) opacity(0.8); position: absolute; top: 0; left: 0;">
+        </div>
+    </div>
+
+    <!-- codigo publicacion (con sonido) -->
+    <div class="pub" style="top: 200px; right: 100px;">
+        <div class="pub-text-content">
+            <div class="pub-title">
+
+                <!-- titulo -->
+                <h3>sonido</h3>
+            </div>
+            <div class="pub-text">
+
+                <!-- texto -->
+                <p1>sonaria algo pero no puse nada xd</p1>
+            </div>
+        </div>
+
+        <!-- imagen (con sonido) -->
+
+        <div class="pub-img">
+            <img src="users/dahianculo.jpg" style="height: 120%; width: 120%; z-index: -1; filter: blur(5px) opacity(0.8); position: absolute; top: 0; left: 0;">
+            <div class="presiona-sonido">
+                <audio id="sound" src="<!-- ruta del sonido aqui -->" preload="auto"> </audio>
+                <script>
+                    document.querySelector(".presiona-sonido").addEventListener("click", function () {
+                        document.querySelector("audio").play();
+                    });
+                </script>
+            </div>
+            <img class="Pub2" src="Testing/Photos/3.jpg" alt="2" object-fit="contain" width="" height="100%" transform="0%,-50%" object-position="0%,50%">
+        </div>
+    </div>
+
+    <!-- codigo publicacion -->
+    <div class="pub" style="top: 700px; left: 100px;">
+
+        <div class="pub-text-content">
+
+            <div class="pub-title">
+
+                <!-- titulo -->
+                <h3>pub 3</h3>
+
+            </div>
+
+            <div class="pub-text">
+
+                <!-- texto -->
+                <p1>3</p1>
+
+            </div>
+
+        </div>
+
+        <!-- imagen (cambio de imagen con botones) -->
+        <div class="pub-img">
+
+            <img src="Testing/Photos/4.jpg" style="height: 120%; width: 120%; z-index: -1; filter: blur(5px) opacity(0.8); position: absolute; top: 0; left: 0;">
+
+            <img id="Pub3" src="Testing/Photos/4.jpg" alt="Pub3" object-fit="contain" width="" height="100%" transform="0%,-50%" object-position="0%,50%">
+
+        </div>
+
+    </div>
+
+    <!-- codigo publicacion -->
+    <div class="pub" style="top: 700px; right: 100px;">
+
+        <div class="pub-text-content">
+
+            <div class="pub-title">
+
+                <!-- titulo -->
+                <h3>resandole al elmo</h3>
+
+            </div>
+
+            <div class="pub-text">
+
+                <!-- texto -->
+                <p1>🛐🛐🛐</p1>
+
+            </div>
+
+        </div>
+
+        <!-- imagen -->
+        <div class="pub-img">
+            <img src="Testing/Photos/5.jpg" style="height: 120%; width: 120%; z-index: -1; filter: blur(5px) opacity(0.8); position: absolute; top: 0; left: 0;">
+
+            <img id="nw" src="Testing/Photos/5.jpg" alt="ni..." object-fit="contain" width="" height="100%" transform="0%,-50%" object-position="0%,50%">
+
+        </div>
+
+    </div>
+
+    <!-- codigo publicacion -->
+    <div class="pub" style="top: 1200px; left: 100px;">
+
+        <!-- color enfacis -->
+        <div class="pub-content" style="background-color: dimgray ;">
+
+            <div class="pub-text-content">
+
+                <div class="pub-title">
+
+                    <!-- titulo -->
+                    <h3>yo</h3>
+
+                </div>
+
+                <div class="pub-text">
+
+                    <!-- texto -->
+                    <p1> con mis amigos </p1>
+
+                </div>
+
+            </div>
+
+            <!-- imagen (cambio de imagen con botones) -->
+            <div class="pub-img">
+
+                <img src="Testing/Photos/6.jpg" style="height: 120%; width: 120%; z-index: -1; filter: blur(5px) opacity(0.8); position: absolute; top: 0; left: 0;">
+
+                <img id="tresb" src="Testing/Photos/6.jpg" alt="nine eleven" object-fit="contain" width="" height="100%" transform="0%,-50%" object-position="0%,50%">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- codigo publicacion -->
+    <div class="pub" style="top: 1200px; right: 100px;">
+
+        <div class="pub-text-content">
+
+            <div class="pub-title">
+
+                <!-- titulo -->
+                <h3>yo en el </h3>
+
+            </div>
+
+            <div class="pub-text">
+
+                <!-- texto -->
+                <p1>yo en el monopoli</p1>
+
+            </div>
+
+        </div>
+
+        <!-- imagen  -->
+        <div class="pub-img">
+
+            <img src="Testing/Photos/7.jpg" style="height: 120%; width: 120%; z-index: -1; filter: blur(5px) opacity(0.8); position: absolute; top: 0; left: 0;">
+
+            <img id="ins" src="Testing/Photos/7.jpg" alt="insanidad" object-fit="contain" width="" height="100%" transform="0%,-50%" object-position="0%,50%">
+
+        </div>
+
+    </div>
+
+    <!-- codigo publicacion -->
+    <div class="pub" style="top: 1700px; left: 100px;">
+
+        <div class="pub-text-content">
+
+            <div class="pub-title">
+
+                <!-- titulo -->
+                <h3>🙀</h3>
+
+            </div>
+
+            <div class="pub-text">
+
+                <!-- texto -->
+                <p1>👀</p1>
+
+            </div>
+
+        </div>
+
+        <!-- imagen  -->
+        <div class="pub-img">
+
+            <img src="Testing/Photos/9.jpg" style="height: 120%; width: 120%; z-index: -1; filter: blur(5px) opacity(0.8); position: absolute; top: 0; left: 0;">
+
+            <img id="mant" src="Testing/Photos/8.jpg" alt="bill-gates" object-fit="contain" width="" height="100%" transform="0%,-50%" object-position="0%,50%">
+
+        </div>
+
+    </div>
+
+    <!-- codigo publicacion -->
+    <div class="pub" style="top: 1700px; right: 100px;">
+
+        <div class="pub-text-content">
+
+            <div class="pub-title">
+
+                <!-- titulo -->
+                <h3>WE</h3>
+
+            </div>
+
+            <div class="pub-text">
+
+                <!-- texto -->
+                <p1>we</p1>
+
+            </div>
+
+        </div>
+
+        <!-- imagen  -->
+        <div class="pub-img">
+
+            <img src="Testing/Photos/9.jpg" style="height: 120%; width: 120%; z-index: -1; filter: blur(5px) opacity(0.8); position: absolute; top: 0; left: 0;">
+
+            <img id="ins" src="Testing/Photos/9.jpg" alt="all" object-fit="contain" width="" height="100%" transform="0%,-50%" object-position="0%,50%">
+
+        </div>
+
+    </div>
+
+    <!-- codigo publicacion -->
+    <div class="pub" style="top: 2200px; left: 100px;">
+
+        <div class="pub-text-content">
+
+            <div class="pub-title">
+
+                <!-- titulo -->
+                <h3>🥺</h3>
+
+            </div>
+
+            <div class="pub-text">
+
+                <!-- texto -->
+                <p1>🥺</p1>
+
+            </div>
+
+        </div>
+
+        <!-- imagen  -->
+        <div class="pub-img">
+
+            <img src="Testing/Photos/10.jpg" style="height: 120%; width: 120%; z-index: -1; filter: blur(5px) opacity(0.8); position: absolute; top: 0; left: 0;">
+
+            <img id="ins" src="Testing/Photos/10.jpg" alt="all" object-fit="contain" width="" height="100%" transform="0%,-50%" object-position="0%,50%">
+
+        </div>
+
+    </div>
+
+    <!-- codigo publicacion -->
+    <div class="pub" style="top: 2200px; right: 100px;">
+
+        <div class="pub-text-content">
+
+            <div class="pub-title">
+
+                <!-- titulo -->
+                <h3> 😞 </h3>
+
+            </div>
+
+            <div class="pub-text">
+
+                <!-- texto -->
+                <p1> hijos </p1>
+
+            </div>
+
+        </div>
+
+        <!-- imagen  -->
+        <div class="pub-img">
+
+            <img src="Testing/Photos/11.jpg" style="height: 120%; width: 120%; z-index: -1; filter: blur(5px) opacity(0.8); position: absolute; top: 0; left: 0;">
+
+            <img id="ins" src="Testing/Photos/11.jpg" alt="all" object-fit="contain" width="" height="100%" transform="0%,-50%" object-position="0%,50%">
+
+        </div>
+
+    </div>
+
+    
+
+</body>
+</html> 
