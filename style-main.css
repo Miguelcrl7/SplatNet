@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "normal";
+    src: url("web/fonts/font_medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "light";
+    src: url("web/fonts/font_regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "extra-light";
+    src: url("web/fonts/font_semibold.woff") format("woff");
+}
+
+* {
+    font-family: "normal";
+}
+
+h1 {
+    color: white;
+    font-size: 38px;
+    font-family: extra-light;
+    margin-left: 8px;
+    margin-top: 14px;
+    text-align: left;
+}
+
+h2 {
+    color: white;
+    font-size: 35px;
+    font-family: extra-light;
+    margin-left: 15px;
+    margin-top: 8px;
+    text-align: left;
+}
+
+h3 {
+    color: black;
+    font-family: light;
+    font-size: 28px;
+    margin-left: 20px;
+    margin-top: 8px;
+    text-align: left;
+}
+
+p1 {
+    color: #177188;
+    font-size: 20px;
+    font-family: normal;
+    margin-left: 0px;
+    text-align: left;
+}
+
+.home-bar {
+    z-index: 3;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    height: 8%;
+    width: 100%;
+    background-color: black;
+
+}
+
+.hidden_menu {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    height: 40px;
+    width: 40px;
+}
+
+
+.Alert {
+    z-index: 2;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    height: 8%;
+    width: 40%;
+    background-color: darkslategray;
+    border-radius: 16px;
+}
+
+.menu-button {
+    width: 4%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 98.1%;
+    transform: translate(-50%, -50%);
+}
+
+.end {
+    z-index: 1;
+    position: absolute;
+    right: 0%;
+    height: 15%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}

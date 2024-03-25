@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "normal";
+    src: url("web/fonts/font_medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "light";
+    src: url("web/fonts/font_regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "extra-light";
+    src: url("web/fonts/font_semibold.woff") format("woff");
+}
+
+h3 {
+    position:absolute;
+    color: black;
+    font-family: light;
+    font-size: 28px;
+    text-align:left ;
+    margin-bottom:0 ;
+    margin-left: 0;
+}
+
+* {
+    font-family: "normal";
+}
+
+.pub {
+    overflow: hidden;
+    position: absolute;
+    object-fit: contain;
+    background-color: lightgray;
+    height: 82%;
+    width: 50%;
+    border-radius: 8px;
+
+}
+
+.pub-img {
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    height: 100%;
+    top: 50%;
+    overflow: hidden;
+    width: 60%;
+    right: 0%;
+    transform: translate(0%, -50%);
+    background-color: black;
+}
+
+.pub-content {
+    object-fit: contain;
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    background-color: #ffffff;
+}
+
+
+.pub-user {
+    z-index: 2;
+    object-fit: contain;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    background-color: #ffffff;
+}
+
+.pub-up{
+    z-index: 2;
+    object-fit: contain;
+    position: absolute;
+    height: 90%;
+    width: %;
+    top: 50%;
+    left: 1%;
+    border-radius: 50%;
+    transform: translate(0%, -50%);
+}
+
+.pub-username{
+    z-index: 2;
+    position: absolute;
+    height: 80%;
+    width: 78%;
+    bottom: 0%;
+    right: 0%;
+}
+
+.pub-text {
+    object-fit: contain;
+    position: absolute;
+    height: 78%;
+    width: 94%;
+    bottom: 50%;
+    right: 50%;
+    background-color: #a2a2a2a2;
+    transform: translate(50%, 50%);
+    border-radius: 8px;
+}
+
+.change-img {
+    z-index: 2;
+    position: absolute;
+    transform: translate(50%, -50%);
+    height: 25px;
+    width: 100%;
+    top: 50%;
+    right: 50%;
+    color: white;
+    font-size: 30px;
+}
+
+button1 {
+    background-color: gray;
+    position: absolute;
+    top: ;
+    left: 2%;
+    border-radius: 8px;
+}
+
+button2 {
+    background-color: gray;
+    position: absolute;
+    top:;
+    right: 2%;
+    border-radius: 8px;
+}
+
+.presiona-sonido {
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.end {
+    z-index: 1;
+    position: absolute;
+    right: 0%;
+    height: 15%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
