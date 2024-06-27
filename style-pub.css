@@ -19,8 +19,18 @@ h3 {
     font-family: light;
     font-size: 28px;
     text-align:left ;
-    margin-bottom:0 ;
+    margin-top:0;
     margin-left: 0;
+}
+
+p1 {
+    position: absolute;
+    color: black;
+    font-family: light;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 2%;
 }
 
 * {
@@ -72,17 +82,16 @@ h3 {
     width: 100%;
     top: 0%;
     left: 0%;
-    background-color: #ffffff;
 }
 
 .pub-up{
     z-index: 2;
     object-fit: contain;
     position: absolute;
-    height: 90%;
     width: %;
+    height:86%;
     top: 50%;
-    left: 1%;
+    left: 2%;
     border-radius: 50%;
     transform: translate(0%, -50%);
 }
@@ -90,10 +99,11 @@ h3 {
 .pub-username{
     z-index: 2;
     position: absolute;
-    height: 80%;
+    height: 50%;
     width: 78%;
-    bottom: 0%;
+    bottom: 50%;
     right: 0%;
+    transform: translate(0%, 50%);
 }
 
 .pub-text {
@@ -143,12 +153,3 @@ button2 {
     height: 100%;
 }
 
-.end {
-    z-index: 1;
-    position: absolute;
-    right: 0%;
-    height: 15%;
-    width: 100%;
-    background-color: black;
-    color: white;
-}

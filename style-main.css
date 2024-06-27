@@ -23,26 +23,18 @@ h1 {
     font-family: extra-light;
     margin-left: 8px;
     margin-top: 14px;
-    text-align: left;
 }
 
 h2 {
     color: white;
-    font-size: 35px;
+    font-size: 28px;
     font-family: extra-light;
-    margin-left: 15px;
+    margin-left: 8px;
     margin-top: 8px;
-    text-align: left;
+    text-align: center;
 }
 
-h3 {
-    color: black;
-    font-family: light;
-    font-size: 28px;
-    margin-left: 20px;
-    margin-top: 8px;
-    text-align: left;
-}
+
 
 p1 {
     color: #177188;
@@ -50,6 +42,13 @@ p1 {
     font-family: normal;
     margin-left: 0px;
     text-align: left;
+}
+
+p2 {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: normal;
+    text-align: center;
 }
 
 .home-bar {
@@ -63,7 +62,7 @@ p1 {
 
 }
 
-.hidden_menu {
+.test_menu {
     position: absolute;
     bottom: 100px;
     right: 100px;
@@ -83,20 +82,73 @@ p1 {
     border-radius: 16px;
 }
 
-.menu-button {
-    width: 4%;
-    height: 100%;
-    position: absolute;
-    top: 50%;
-    left: 98.1%;
-    transform: translate(-50%, -50%);
+.home-menu {
+    object-fit: contain;
+    position: fixed;
+    height: 88%;
+    width: 18%;
+    bottom: 46%;
+    left: 1%;
+    background-color: #a2a2a2a2;
+    transform: translate(0%, 50%);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.menu-user {
+    object-fit: contain;
+    position: fixed;
+    height: 8%;
+    width: 90%;
+    top: 2%;
+    left: 50%;
+    background-color: #27272772;
+    transform: translate(-50%, 0%);
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.menu-user-photo {
+    z-index: 2;
+    object-fit: contain;
+    position: fixed;
+    height: 90%;
+    bottom: 50%;
+    left: 1%;
+    border-radius: 50%;
+    transform: translate(0%, 50%);
+}
+
+.home-button {
+    object-fit: contain;
+    position: fixed;
+    height: 6%;
+    width: 80%;
+    top: 12%;
+    left: 50%;
+    background-color: #0c2742f2;
+    transform: translate(-50%, 0%);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.settings-button {
+    object-fit: contain;
+    position: fixed;
+    height: 6%;
+    width: 80%;
+    top: 20%;
+    left: 50%;
+    background-color: #0c2742f2;
+    transform: translate(-50%, 0%);
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .end {
     z-index: 1;
     position: absolute;
     right: 0%;
-    height: 15%;
+    height: 16%;
     width: 100%;
     background-color: black;
     color: white;
